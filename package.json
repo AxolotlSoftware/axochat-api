@@ -1,0 +1,20 @@
+{
+  "name": "@axolotl.software/axochat-api",
+  "version": "1.0.0",
+  "description": "TypeScript API for the Axochat",
+  "author": "Axolotl Software",
+  "repository": "https://github.com/AxolotlSoftware/axochat-api",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf ./dist && tsc -p .",
+    "start": "rimraf ./dist && tsc -p . && node ./dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^13.11.1",
+    "@types/ws": "^7.2.3",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "ws": "^7.2.3"
+  }
+}

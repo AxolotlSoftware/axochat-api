@@ -1,0 +1,28 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "esnext",
+    "noImplicitAny": false,
+    "outDir": "dist",
+    "sourceRoot": "src",
+    "lib": ["es2017"],
+    "types": ["node"],
+    "rootDir": "src",
+    "newLine": "lf",
+    "declaration": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "pretty": false,
+    "strict": true,
+    "jsx": "react",
+    "strictNullChecks": false,
+    "skipLibCheck": false,
+    "allowJs": false,
+    "forceConsistentCasingInFileNames": true,
+    "disableSizeLimit": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  }
+}
